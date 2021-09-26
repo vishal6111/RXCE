@@ -23,7 +23,7 @@ def hero():
                 if done:
                     break
                 sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
-                sys.stdout.flush()
+                #sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
 
@@ -31,7 +31,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(20)
+       # time.sleep(20)
         done = True
 
     def chalo1():
@@ -41,7 +41,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
                     break
-                sys.stdout.write('\rgetting the colour wait --------- ' + c)
+                #sys.stdout.write('\rgetting the colour wait --------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -50,7 +50,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(20)
+       # time.sleep(20)
         done = True
 
     def clear():
@@ -131,8 +131,8 @@ if(expirydate>today):
     #Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     #if (now>Third and now<Thirdend):
-          period=230
-        hero()
+           period=280
+           hero()
     #elif(False):
     #        period=340
     #        hero()
