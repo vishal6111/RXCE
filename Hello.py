@@ -131,8 +131,8 @@ if(expirydate>today):
     #Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     #if (now>Third and now<Thirdend):
-     #       period=320
-            hero()
+          period=230
+        hero()
     #elif(False):
     #        period=340
     #        hero()
